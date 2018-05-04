@@ -125,6 +125,14 @@ app.controller('HomeController', ['$scope', function($scope) {
         return $scope.hour + " hours " + $scope.min + " minutes";
     }
 	
+	    $scope.like = function (index) {
+        $scope.movies[index].likes++;
+    }
+
+    $scope.dislike = function (index) {
+        $scope.movies[index].dislikes++;
+    }
+	
 	
 	
 	
