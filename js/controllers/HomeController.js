@@ -112,7 +112,18 @@ app.controller('HomeController', ['$scope', function($scope) {
 		
 	
 	
-	
+	    $scope.posterClick = function (index) {
+        $scope.movies[index].posterindex++;
+        if ($scope.movies[index].posterindex == $scope.movies[index].posters.length) {
+            $scope.movies[index].posterindex = 0;
+        }
+    }
+
+	$scope.timeText = function (minutes) {
+        $scope.hour = Math.floor(minutes / 60);
+        $scope.min = minutes % 60;
+        return $scope.hour + " hours " + $scope.min + " minutes";
+    }
 	
 	
 	
