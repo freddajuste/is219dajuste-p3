@@ -109,6 +109,8 @@ body {
     transition: background 500ms;
 }
 .dislikes {
+	background-color: #f65a5b;
+	color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-size: 15px;
@@ -139,7 +141,12 @@ body {
 	background-color: #9edd87;
 	color: #008700;
 	transition: background 500ms;
-
+}
+.dislikes:hover{
+	background-color: #fdd6d6;
+	color: #F65A5B;
+	transition: background 500ms;
+}
 
 
 
