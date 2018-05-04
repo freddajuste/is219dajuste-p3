@@ -88,8 +88,52 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
+	},
 	
+	{ 
+      title:	'Remember the Titans', 
+      iscore:	7.8,
+      rating:	'PG',
+      runtime:	113,
+      released:	new Date('2000', '09', '23'),
+      country:	'USA',
+      posters:	['img/titans.jpg','img/titans2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt0210945/',
+      website:	'https://www.moviefone.com/movie/remember-the-titans/7930/where-to-watch/',
+      likes:	950,
+      dislikes:	20,
+      posterindex: 0
+	},
+	
+	{ 
+      title:	'The Blind Side', 
+      iscore:	7.7,
+      rating:	'PG-13',
+      runtime:	129,
+      released:	new Date('2009', '11', '20'),
+      country:	'USA',
+      posters:	['img/blind_side.jpg','img/blind_side2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt0878804/',
+      website:	'http://www.tbs.com/movies/the-blind-side',
+      likes:	857,
+      dislikes:	112,
+      posterindex: 0
+	},
+	
+	{ 
+      title:	'Now You See Me ', 
+      iscore:	7.3,
+      rating:	'PG-13',
+      runtime:	115,
+      released:	new Date('2013', '05', '31'),
+      country:	'USA',
+      posters:	['img/NYSM.jpg','img/NYSM2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt1670345/',
+      website:	'https://decider.com/movie/now-you-see-me/',
+      likes:	839,
+      dislikes:	98,
+      posterindex: 0
+	}
 	
   ];
 	
